@@ -13,7 +13,7 @@ docker_build:
 docker_run: docker_build
 	docker run \
 		--name hello-world-printer-dev \
-		-p 5000:5000 \
+		-p 5001:5000 \
 		-d hello-world-printer
 USERNAME=dominowski97
 TAG=$(USERNAME)/hello-world-printer
